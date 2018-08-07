@@ -66,10 +66,43 @@ class ViewController: UIViewController {
 //        }
 //        print(description)
 //        print(methodName(i: 6));
-        var someInt = 3
-        var anotherInt = 107
-        swapTwoInts(&someInt, &anotherInt)
-        print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
+//        var someInt = 3
+//        var anotherInt = 107
+//        swapTwoInts(&someInt, &anotherInt)
+//        print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
+//        var str = "hh"
+//        let str1 = "456"
+//        str.append("C")
+//        print(str);
+//
+//
+        var completionHandlers: [() -> Void] = []
+//
+        func someFunctionWithEscapingClosure(completionHandler: @escaping () -> Void) {
+            completionHandlers.append(completionHandler)
+        }
+        
+        func someFunctionWithNonescapingClosure(closure: () -> Void) {
+            closure()
+        }
+        
+//        class SomeClass {
+//            var x = 10
+//            func doSomething() {
+//                someFunctionWithEscapingClosure { self.x = 100 }
+//                someFunctionWithNonescapingClosure { x = 200 }
+//            }
+//        }
+//
+//        let instance = SomeClass()
+//        instance.doSomething()
+//        print(instance.x)
+//        // 打印出 "200"
+//
+//        completionHandlers.first?()
+//        print(instance.x)
+        // 打印出 "100"
+        
     }
     
     func swapTwoInts(_ a: inout Int, _ b: inout Int) {
