@@ -15,6 +15,7 @@
 		76B7995720FF41EE00F5D146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B7995520FF41EE00F5D146 /* LaunchScreen.storyboard */; };
 		76B7995A20FF41EE00F5D146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7995920FF41EE00F5D146 /* main.m */; };
 		76B7996320FF432600F5D146 /* NSDictionary+Unnull.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7996220FF432600F5D146 /* NSDictionary+Unnull.m */; };
+		76BA1DCC211997960075D9C6 /* UIImage+KPColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BA1DCB211997960075D9C6 /* UIImage+KPColorImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		76B7995920FF41EE00F5D146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76B7996120FF432600F5D146 /* NSDictionary+Unnull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Unnull.h"; sourceTree = "<group>"; };
 		76B7996220FF432600F5D146 /* NSDictionary+Unnull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Unnull.m"; sourceTree = "<group>"; };
+		76BA1DCA211997960075D9C6 /* UIImage+KPColorImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KPColorImage.h"; sourceTree = "<group>"; };
+		76BA1DCB211997960075D9C6 /* UIImage+KPColorImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KPColorImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				76B7996120FF432600F5D146 /* NSDictionary+Unnull.h */,
 				76B7996220FF432600F5D146 /* NSDictionary+Unnull.m */,
+				76BA1DCA211997960075D9C6 /* UIImage+KPColorImage.h */,
+				76BA1DCB211997960075D9C6 /* UIImage+KPColorImage.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				76B7996320FF432600F5D146 /* NSDictionary+Unnull.m in Sources */,
 				76B7994920FF41EB00F5D146 /* AppDelegate.m in Sources */,
 				76B7995A20FF41EE00F5D146 /* main.m in Sources */,
+				76BA1DCC211997960075D9C6 /* UIImage+KPColorImage.m in Sources */,
 				76B7995220FF41EB00F5D146 /* iOS_Utils.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
