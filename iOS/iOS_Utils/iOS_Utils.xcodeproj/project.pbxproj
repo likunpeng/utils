@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7651D09B211AEB0900A215F9 /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651D09A211AEB0900A215F9 /* UIImage+LaunchImage.m */; };
 		76B7994920FF41EB00F5D146 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7994820FF41EB00F5D146 /* AppDelegate.m */; };
 		76B7994C20FF41EB00F5D146 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B7994B20FF41EB00F5D146 /* ViewController.m */; };
 		76B7994F20FF41EB00F5D146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B7994D20FF41EB00F5D146 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7651D099211AEB0900A215F9 /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
+		7651D09A211AEB0900A215F9 /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
 		76B7994420FF41EB00F5D146 /* iOS_Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B7994720FF41EB00F5D146 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76B7994820FF41EB00F5D146 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				76B7996220FF432600F5D146 /* NSDictionary+Unnull.m */,
 				76BA1DCA211997960075D9C6 /* UIImage+KPColorImage.h */,
 				76BA1DCB211997960075D9C6 /* UIImage+KPColorImage.m */,
+				7651D099211AEB0900A215F9 /* UIImage+LaunchImage.h */,
+				7651D09A211AEB0900A215F9 /* UIImage+LaunchImage.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				76B7994C20FF41EB00F5D146 /* ViewController.m in Sources */,
 				76B7996320FF432600F5D146 /* NSDictionary+Unnull.m in Sources */,
 				76B7994920FF41EB00F5D146 /* AppDelegate.m in Sources */,
+				7651D09B211AEB0900A215F9 /* UIImage+LaunchImage.m in Sources */,
 				76B7995A20FF41EE00F5D146 /* main.m in Sources */,
 				76BA1DCC211997960075D9C6 /* UIImage+KPColorImage.m in Sources */,
 				76B7995220FF41EB00F5D146 /* iOS_Utils.xcdatamodeld in Sources */,
